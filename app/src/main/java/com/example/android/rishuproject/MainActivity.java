@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.facebook.com"));
+                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
                 startActivity(intent);
             }
         });
