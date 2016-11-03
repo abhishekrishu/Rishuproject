@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.setData(Uri.parse("www.javatpoint.com"));
                 startActivity(intent);
 */
-                Intent downloadIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                Intent downloadIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.twitter.com"));
                 //downloadIntent.setData(Uri.parse("www.javatpoint.com"));
                 startActivity(downloadIntent);
 
